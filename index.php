@@ -93,7 +93,7 @@
           <div class="w-100 text-white">
             <h1 class="head-vid-header display-4">Save Your Loved Ones</h1>
             <p class="lead mb-0">Voice Out, You Deserve To Be Heard</p>
-            <a href="mainPage-F.html"><button type="button" class="btn btn-outline-danger btn-vid-header">Report Here</button></a>
+            <a href="index.php"><button type="button" class="btn btn-outline-danger btn-vid-header">Report Here</button></a>
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@
     <div class="row event-info">
       <div class="col-sm-4 v-jumbo">
         <h1 class="display-4 vol-exp">BE A VOLUNTEER. GET INVOLVED <br> WITH RESCUE</h1>
-        <a href="mainPage-F.html"><button type="button" class="btn btn-danger btn-vjumbo">   Join Here   </button></a>
+        <a href="index.php"><button type="button" class="btn btn-danger btn-vjumbo">   Join Here   </button></a>
       </div>
       <div class="col-sm-8 jumbotron v-event">
          </div>
