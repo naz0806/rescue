@@ -45,7 +45,7 @@ if($mysqli->connect_error){
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Welcome, Volunteer</a></li>
-            <li><a href="mainPage-F.php">Logout</a></li>
+            <li><a href="index.php">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
