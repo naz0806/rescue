@@ -31,7 +31,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="volunteerListEvent-B.html">Dashboard</a></li>
+            <li class="active"><a href="volunteerListEvent-B.php">Dashboard</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Welcome, Volunteer</a></li>
