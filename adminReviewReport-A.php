@@ -35,10 +35,10 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="adminDashboard-A.html">Dashboard</a></li>
-            <li><a href="adminAddEvent-B.html">Event</a></li>
-            <li><a href="adminManageReport-A.html">Report</a></li>
-            <li class="active"><a href="adminReviewReport-A.html">Review</a></li>
+            <li><a href="adminDashboard-A.php">Dashboard</a></li>
+            <li><a href="adminAddEvent-B.php">Event</a></li>
+            <li><a href="adminManageReport-A.php">Report</a></li>
+            <li class="active"><a href="adminReviewReport-A.php">Review</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Welcome, Zhan Sung</a></li>
@@ -62,7 +62,7 @@
     <section id="breadcrumb">
       <div class="container">
         <ol class="breadcrumb">
-          <li><a href="adminDashboard-A.html">Dashboard</a></li>  
+          <li><a href="adminDashboard-A.php">Dashboard</a></li>  
           <li class="active">Review</li>
         </ol>
       </div>
