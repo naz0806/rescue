@@ -62,7 +62,7 @@
     <section id="breadcrumb">
       <div class="container">
         <ol class="breadcrumb">
-          <li><a href="adminDashboard-A.html">Dashboard</a></li>  
+          <li><a href="adminDashboard-A.php">Dashboard</a></li>  
           <li class="active">Report</li>
         </ol>
       </div>
@@ -136,9 +136,9 @@
               <a href="adminDashboard-A.html" class="list-group-item active main-color-bg">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Dashboard
               </a>
-              <a href="adminAddEvent-B.html" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Add Event<span class="badge">12</span></a>
-              <a href="adminManageReport-A.html" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Report<span class="badge">12</span></a>
-              <a href="adminReviewReport-A.html" class="list-group-item"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Review<span class="badge">6</span></a>
+              <a href="adminAddEvent-B.php" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Add Event<span class="badge">12</span></a>
+              <a href="adminManageReport-A.php" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Report<span class="badge">12</span></a>
+              <a href="adminReviewReport-A.php" class="list-group-item"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Review<span class="badge">6</span></a>
             </div>
 
             <div class="well">
