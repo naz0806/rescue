@@ -31,18 +31,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="mainPage-F.php">Rescue</a>
+          <a class="navbar-brand" href="index.php">Rescue</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="adminDashboard-A.html">Dashboard</a></li>
-            <li><a href="adminAddEvent-B.html">Event</a></li>
-            <li class="active"><a href="adminManageReport-A.html">Report</a></li>
-            <li><a href="adminReviewReport-A.html">Review</a></li>
+            <li><a href="adminDashboard-A.php">Dashboard</a></li>
+            <li><a href="adminAddEvent-B.php">Event</a></li>
+            <li class="active"><a href="adminManageReport-A.php">Report</a></li>
+            <li><a href="adminReviewReport-A.php">Review</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Welcome, Zhan Sung</a></li>
-            <li><a href="mainPage-F.php">Logout</a></li>
+            <li><a href="index.php">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
