@@ -18,7 +18,7 @@ $sql = "INSERT INTO report (vict_name, vict_ic, vict_contact, vict_email, vict_a
 $result = mysqli_query($conn, $sql);
 if($result)
 {
-	header("Location: http://localhost/Latest%20241220%20Rescue%20Combined/victimMakeReport-A.php");
+	header("Location: https://rescue-cmt322.herokuapp.com/victimMakeReport-A.php");
 }
 else
 {
