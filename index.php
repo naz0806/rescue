@@ -39,12 +39,12 @@
                         <span class="navbar-toggler-icon"></span>
                     </button> 
                     
-                    <a class="navbar-brand" href="#"><img class="img-logo" src="css/image-F/logo.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="index.php"><img class="img-logo" src="css/image-F/logo.png" alt="Logo"></a>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#about">About</a>
@@ -146,7 +146,7 @@
     <div class="row event-info">
       <div class="col-sm-4 v-jumbo">
         <h1 class="display-4 vol-exp">BE A VOLUNTEER. GET INVOLVED <br> WITH RESCUE</h1>
-        <a href="index.php"><button type="button" class="btn btn-danger btn-vjumbo">   Join Here   </button></a>
+        <a href="usersSignUp-M.php"><button type="button" class="btn btn-danger btn-vjumbo">   Join Here   </button></a>
       </div>
       <div class="col-sm-8 jumbotron v-event">
          </div>
