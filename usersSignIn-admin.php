@@ -12,7 +12,7 @@
 	
 	<div class="form-container sign-in-container">
 
-		<form onsubmit="mySubmit3()" method="POST" action="login-admin.php">
+		<form method="POST" action="login-admin.php">
 			<h3 style="text-align:left;">Sign In</h3>
 			<input type="text" name="Username" required placeholder="Username"/>
             <input type="password" id="pass" name="Password" required placeholder="Password (Above 8 characters)" pattern=".{8,}" />
