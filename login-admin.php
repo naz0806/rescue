@@ -6,11 +6,11 @@ Here, we write code for login.
 require_once('connection.php');
 $Username = $Password = $Pass = '';
 
-if (isset($_POST['submit'])) {
+//if (isset($_POST['submit'])) {
         
         $Username = mysqli_real_escape_string($link, $_POST['Username']);
         $Password = mysqli_real_escape_string($link, $_POST['Password']);
-}
+//}
 
 $Pass = MD5($Password);
 
