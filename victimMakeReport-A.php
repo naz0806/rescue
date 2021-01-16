@@ -90,7 +90,7 @@
 <div>
     <section class="report-form">
         <div class="container">
-            <form onsubmit="mySubmit3()" method="POST" action="report.php">
+            <form onsubmit="mySubmit()" method="POST" action="report.php">
                 <div class="content">
     
                     <div class="input_grp">
