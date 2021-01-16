@@ -19,7 +19,7 @@
 			<input type="text" name="Username" required placeholder="Username"/>
             <input type="password" id="pass" name="Password" required placeholder="Password (Above 8 characters)" pattern=".{8,}" />
 			<input type="tel" name="Contact" required placeholder="Contact No." />
-			<button>Sign Up</button>
+			<button name="submit">Sign Up</button>
 		</form>
 	</div>
 	<div class="overlay-container">
