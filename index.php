@@ -93,7 +93,7 @@
           <div class="w-100 text-white">
             <h1 class="head-vid-header display-4">Save Your Loved Ones</h1>
             <p class="lead mb-0">Voice Out, You Deserve To Be Heard</p>
-            <a href="index.php"><button type="button" class="btn btn-outline-danger btn-vid-header">Report Here</button></a>
+            <a href="victimMakeReport-A.php"><button type="button" class="btn btn-outline-danger btn-vid-header">Report Here</button></a>
           </div>
         </div>
       </div>
