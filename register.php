@@ -11,9 +11,7 @@ if (isset($_POST['submit'])) {
         $Password = mysqli_real_escape_string($link, $_POST['Password']);
         $Contact = mysqli_real_escape_string($link, $_POST['Contact']);
 }
-
-		
-		
+	
         $Pass = md5($Password); //encrypt password before storing in database (security)
         $sql = "INSERT INTO users (Fullname, Email, Username, Password, Contact) VALUES ('$Fullname','$Email','$Username','$Pass','$Contact')";
         $result = mysqli_query($link, $sql);
@@ -30,11 +28,6 @@ if (isset($_POST['submit'])) {
 
 
 ?>
-
-
-
-
-    
        <!-- $password = md5($d_pass1); //encrypt password before storing in database (security)
         $sql = "INSERT INTO donor (d_fname, d_lname, d_email, d_pass1, d_pass2)
                 VALUES ('$d_fname', '$d_lname', '$d_email', '$d_pass1', '$d_pass2')";
