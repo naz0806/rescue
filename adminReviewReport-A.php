@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="mainPage-F.php">Rescue</a>
+          <a class="navbar-brand" href="index.php">Rescue</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -42,7 +42,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Welcome, Zhan Sung</a></li>
-            <li><a href="mainPage-F.php">Logout</a></li>
+            <li><a href="index.php">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -132,12 +132,12 @@
         <div class="row">
           <div class="col-md-3">
             <div class="list-group">
-              <a href="adminDashboard-A.html" class="list-group-item active main-color-bg">
+              <a href="adminDashboard-A.php" class="list-group-item active main-color-bg">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Dashboard
               </a>
-              <a href="adminAddEvent-B.html" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Add Event<span class="badge">12</span></a>
-              <a href="adminManageReport-A.html" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Report<span class="badge">12</span></a>
-              <a href="adminReviewReport-A.html" class="list-group-item"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Review<span class="badge">6</span></a>
+              <a href="adminAddEvent-B.php" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Add Event<span class="badge">12</span></a>
+              <a href="adminManageReport-A.php" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Report<span class="badge">12</span></a>
+              <a href="adminReviewReport-A.php" class="list-group-item"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Review<span class="badge">6</span></a>
             </div>
 
             <div class="well">
