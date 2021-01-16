@@ -6,11 +6,15 @@ Here, we write code for login.
 require_once('connection.php');
 $Username = $Password = $Pass = '';
 
-$Username = $_POST['Username'];
-$Password = $_POST['Password'];
+if (isset($_POST['submit'])) {
+        
+        $Username = mysqli_real_escape_string($link, $_POST['Username']);
+        $Password = mysqli_real_escape_string($link, $_POST['Password']);
+}
+
 $Pass = MD5($Password);
 $sql = "SELECT * FROM users WHERE Username='$Username' AND Password='$Pass'";
-$result = mysqli_query($conn, $sql);
+$result = mysqli_query($link, $sql);
 if(mysqli_num_rows($result) > 0)
 {
 	while($row = mysqli_fetch_assoc($result))
