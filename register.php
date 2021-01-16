@@ -15,7 +15,7 @@ $sql = "INSERT INTO users (Fullname, Email, Username, Password, Contact) VALUES 
 $result = mysqli_query($conn, $sql);
 if($result)
 {
-	header("Location: https://rescue-cmt322.herokuapp.com/volunteerListEvent-B.php");
+	header("Location: https://rescue-cmt322.herokuapp.com/usersSignIn-vol.php");
 }
 else
 {
