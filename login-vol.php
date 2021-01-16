@@ -21,7 +21,7 @@ if(mysqli_num_rows($result) > 0)
 		$_SESSION['User_Id'] = $User_Id;
 		$_SESSION['Username'] = $Username;
 	}
-	header("Location: http://localhost/Latest%20241220%20Rescue%20Combined/mainPage-F.html");
+	header("Location: https://rescue-cmt322.herokuapp.com/volunteerListEvent-B.php");
 }
 else
 {
