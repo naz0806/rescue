@@ -11,7 +11,7 @@ $sql = "INSERT INTO review (rev_name, rev_reply) VALUES ('$rev_name','$rev_reply
 $result = mysqli_query($conn, $sql);
 if($result)
 {
-	header("Location: http://localhost/Latest%20241220%20Rescue%20Combined/adminReviewReport-A.php");
+	header("Location: https://rescue-cmt322.herokuapp.com/adminReviewReport-A.php");
 }
 else
 {
