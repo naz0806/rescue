@@ -155,7 +155,7 @@
                         <textarea id="report" name="vict_report" required="" placeholder="Write your report here.." rows="25"></textarea></label>
                     </div>
     
-                    <input type="submit" value="Send" style="padding: 10px; width: 25%" >
+                    <input type="submit" name="submit" value="Send" style="padding: 10px; width: 25%" >
                 </div>
             </form>
         </div>    
