@@ -4,18 +4,20 @@ require_once('connection.php');
 
 $vict_name = $vict_ic = $vict_contact = $vict_email = $vict_age = $vict_state = $vict_work = $vict_report ='';
 
-$vict_name = $_POST['vict_name'];
-$vict_ic = $_POST['vict_ic'];
-$vict_contact = $_POST['vict_contact'];
-$vict_email = $_POST['vict_email'];
-$vict_age = $_POST['vict_age'];
-$vict_state = $_POST['vict_state'];
-$vict_work =  $_POST['vict_work'];
-$vict_report = $_POST['vict_report'];
-
+if (isset($_POST['submit'])) {
+	$vict_name = mysqli_real_escape_string($link,$_POST['vict_name']);
+	$vict_ic = mysqli_real_escape_string($link,$_POST['vict_ic']);
+	$vict_contact = mysqli_real_escape_string($link,$_POST['vict_contact']);
+	$vict_email = mysqli_real_escape_string($link,$_POST['vict_email']);
+	$vict_age = mysqli_real_escape_string($link,$_POST['vict_age']);
+	$vict_state = mysqli_real_escape_string($link,$_POST['vict_state']);
+	$vict_work =  mysqli_real_escape_string($link,$_POST['vict_work']);
+	$vict_report = mysqli_real_escape_string($link,$_POST['vict_report']);
+}
+	
 $sql = "INSERT INTO report (vict_name, vict_ic, vict_contact, vict_email, vict_age, vict_state, vict_work, vict_report) VALUES 
      ('$vict_name','$vict_ic','$vict_contact','$vict_email','$vict_age','$vict_state','$vict_work','$vict_report' )";
-$result = mysqli_query($conn, $sql);
+$result = mysqli_query($link, $sql);
 if($result)
 {
 	header("Location: https://rescue-cmt322.herokuapp.com/victimMakeReport-A.php");
