@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>User Registration</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../Latest 241220 Rescue Combined/css/volunteerSignUp-M.css">
+	<link rel="stylesheet" href="css/volunteerSignUp-M.css">
 
 </head>
 <div class="container" id="container">
@@ -30,7 +30,7 @@
 				<h3>Register Now.</h3><br><br><br>
 				
                 <p id="al">Already have an account?</p>
-                <a href="usersSignIn-M.php">Sign In</a>
+                <a href="usersSignIn-vol.php">Sign In</a>
 			</div>
 		</div>	
 	</div>
