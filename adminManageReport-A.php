@@ -133,7 +133,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="list-group">
-              <a href="adminDashboard-A.html" class="list-group-item active main-color-bg">
+              <a href="adminDashboard-A.php" class="list-group-item active main-color-bg">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Dashboard
               </a>
               <a href="adminAddEvent-B.php" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Add Event<span class="badge">12</span></a>
