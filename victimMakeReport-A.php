@@ -33,7 +33,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button> 
                     
-                    <a class="navbar-brand" href="#"><img class="img-logo" src="css/image-F/logo.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="index.php"><img class="img-logo" src="css/image-F/logo.png" alt="Logo"></a>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="navbar-nav">
@@ -41,7 +41,7 @@
                                 <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Violence</a>
@@ -54,7 +54,7 @@
                             </li>
                            
                           <li class="nav-item active">
-                                <a class="nav-link" href="#">Make A Report</a>
+                                <a class="nav-link" href="victimMakeReport.php">Make A Report</a>
                             </li>
                         </ul>
                         <ul class="navbar-nav ml-md-auto">
@@ -65,9 +65,9 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Login</a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Admin</a> <a class="dropdown-item" href="#">Volunteer</a> 
+                                    <a class="dropdown-item" href="usersSignIn-admin.php">Admin</a> <a class="dropdown-item" href="usersSignIn-vol.php">Volunteer</a> 
                                     <div class="dropdown-divider">
-                                    </div> <a class="dropdown-item" href="#">Sign Up Volunteer</a>
+                                    </div> <a class="dropdown-item" href="usersSignUp-M">Sign Up Volunteer</a>
                                 </div>
                             </li>
                         </ul>
