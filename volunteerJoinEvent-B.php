@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Rescue</a>
+          <a class="navbar-brand" href="index.php">Rescue</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -124,11 +124,11 @@
         <div class="row">
           <div class="col-md-3">
             <div class="list-group">
-              <a href="volunteerListEvent-B.html" class="list-group-item active main-color-bg">
+              <a href="volunteerListEvent-B.php" class="list-group-item active main-color-bg">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Dashboard
               </a>
-              <a href="volunteerListEvent-B.html" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Your Events<span class="badge">12</span></a>
-              <a href="volunteerJoinEvent-B.html" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Add Event<span class="badge">12</span></a>
+              <a href="volunteerListEvent-B.php" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Your Events<span class="badge">12</span></a>
+              <a href="volunteerJoinEvent-B.php" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Add Event<span class="badge">12</span></a>
             </div>
           </div>
           <div class="col-md-9">
