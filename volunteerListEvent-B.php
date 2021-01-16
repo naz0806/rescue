@@ -1,7 +1,6 @@
 <?php 
 
 //connect to the database
-$mysqli = new mysqli('remotemysql.com', '3Xfb0olTjF', 'kWUZVKJpXB', '3Xfb0olTjF');
 
 $link = mysqli_connect('remotemysql.com', '3Xfb0olTjF', 'kWUZVKJpXB', '3Xfb0olTjF') or die($link);
 if($mysqli->connect_error){
