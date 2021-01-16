@@ -1,9 +1,9 @@
 <?php 
 
 //connect to the database
-$mysqli = new mysqli('localhost', 'root', '', 'rescue');
+$mysqli = new mysqli('remotemysql.com', '3Xfb0olTjF', 'kWUZVKJpXB', '3Xfb0olTjF');
 
-$link = mysqli_connect('localhost', 'root', '', 'rescue') or die($link);
+$link = mysqli_connect('remotemysql.com', '3Xfb0olTjF', 'kWUZVKJpXB', '3Xfb0olTjF') or die($link);
 if($mysqli->connect_error){
     die('Connection Failed : '.$mysqli->connect_error);
 }
@@ -134,11 +134,11 @@ if($mysqli->connect_error){
         <div class="row">
           <div class="col-md-3">
             <div class="list-group">
-              <a href="volunteerListEvent-B.html" class="list-group-item active main-color-bg">
+              <a href="volunteerListEvent-B.php" class="list-group-item active main-color-bg">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Dashboard
               </a>
-              <a href="volunteerListEvent-B.html" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Your Events<span class="badge">12</span></a>
-              <a href="volunteerJoinEvent-B.html" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Add Event<span class="badge">12</span></a>
+              <a href="volunteerListEvent-B.php" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Your Events<span class="badge">12</span></a>
+              <a href="volunteerJoinEvent-B.php" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Add Event<span class="badge">12</span></a>
             </div>
           </div>
           <div class="col-md-9">
