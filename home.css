@@ -1,0 +1,77 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+	margin: 0; /* rapat ke atas */
+	padding: 0;
+	outline: none;
+	border: none;
+	text-decoration: none; /* none delete line (underline) under word */
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body{
+	background: #e2d4c5; /* set background color */
+}
+
+h1{
+	font-size: 40px;
+	padding: 20px;
+	margin-left: 70px;
+	transition: 0.5s ease;
+}
+
+/* --- Sidebar --- */
+
+nav{
+	position: fixed; /* to make sure sidebar position is fixed and doesn't move when scroll */
+	top: 0; /* jarak at top part */
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	background: #fff; /* set nav background color */
+	width: 50px; /* width of navbar */
+	overflow: hidden; 
+	transition: width 0.2s linear;
+	box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1); /* add shadow effect to navbar */
+}
+
+a{
+	position: relative;
+	color: #90785d;
+	font-size: 14px; /* font size in a */
+	display: table;
+	width: 300px;
+	padding: 10px; 
+}
+
+.bx{
+	position: relative;
+	width: 30px;
+	height: 40px;
+	top: 14px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.nav-item{
+	position: relative;
+	top: 12px;
+	margin-left: 10px;
+}
+
+a:hover{
+	background: #eee;
+}
+
+nav:hover{
+	width: 140px;
+	transition: all 0.5s ease;
+}
+.logout{
+	position: absolute;
+	bottom: 0;
+}
+
+/* --- Sidebar --- */
